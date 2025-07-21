@@ -65,7 +65,7 @@ public class FileSharer {
                 oss.write(header.getBytes());
                 
                 // Send the file content
-                byte[] buffer = new byte[4096];
+                byte[] buffer = new byte[16384];
                 int bytesRead;
                 while ((bytesRead = fis.read(buffer)) != -1) {
                     oss.write(buffer, 0, bytesRead);
