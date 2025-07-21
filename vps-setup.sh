@@ -35,9 +35,9 @@ sudo npm install -g pm2
 echo "Installing Maven..."
 sudo apt install -y maven
 
-Clone repository (uncomment and modify if using Git)
-echo "Cloning repository..."
-git clone https://github.com/GeeksAdarsh/Peer2Peer-AWS
+#Clone repository (uncomment and modify if using Git)
+#echo "Cloning repository..."
+#git clone https://github.com/GeeksAdarsh/Peer2Peer-AWS
 
 
 # Build backend
